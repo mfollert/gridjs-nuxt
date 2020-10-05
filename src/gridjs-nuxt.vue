@@ -130,8 +130,11 @@ export default {
     rows() {
       this.update()
     },
-    search() {
-      this.update()
+    search: {
+      deep: true,
+      handler() {
+        this.update()
+      }
     },
     server() {
       this.update()

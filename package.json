@@ -1,5 +1,5 @@
 {
-  "name": "gridjs-vue",
+  "name": "gridjs-nuxt",
   "description": "A Vue.js wrapper component for Grid.js",
   "version": "0.5.2",
   "license": "MIT",

@@ -2,7 +2,7 @@ import { createRef, h, html } from 'gridjs'
 import elementReady from 'element-ready'
 import { nanoid } from 'nanoid'
 
-import Grid from './gridjs-vue.vue'
+import Grid from './gridjs-nuxt.vue'
 
 export function install(Vue) {
   if (install.installed) return
